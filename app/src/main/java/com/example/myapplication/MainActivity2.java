@@ -24,4 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
     public void sekrol(View view){
         startActivity(new Intent(MainActivity2.this,MainActivity3.class));
     }
+    public void btnCalc(View view){
+        startActivity(new Intent(MainActivity2.this,MainActivity4.class));
+    }
 }
