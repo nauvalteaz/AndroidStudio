@@ -28,4 +28,8 @@ public class MainActivity2 extends AppCompatActivity {
     public void btnCalc(View view){
         startActivity(new Intent(MainActivity2.this,MainActivity4.class));
     }
+
+    public void app_me(View view) {
+        startActivity(new Intent(MainActivity2.this,MainActivity.class));
+    }
 }
