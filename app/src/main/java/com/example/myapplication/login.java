@@ -16,6 +16,7 @@ public class login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         username = (EditText) findViewById(R.id.username1);
@@ -35,7 +36,7 @@ public class login extends AppCompatActivity {
                     Boolean checkuserpass = DB.checkusernamepassword(user, pass);
                     if(checkuserpass==true){
                         Toast.makeText(login.this, "Sign in successfull", Toast.LENGTH_SHORT).show();
-                        Intent intent  = new Intent(getApplicationContext(), MainActivity2.class);
+                        Intent intent  = new Intent(getApplicationContext(), splashScreen.class);
                         startActivity(intent);
                     }else{
                         Toast.makeText(login.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();

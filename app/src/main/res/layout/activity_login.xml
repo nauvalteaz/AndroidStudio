@@ -19,23 +19,15 @@
         android:layout_below="@+id/username1"
         android:layout_marginTop="50dp">
     </EditText>
-    <EditText
-        android:id="@+id/repassword1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="confirmation password"
-        android:layout_below="@+id/password1"
-        android:layout_marginTop="50dp">
-    </EditText>
+
     <Button
         android:id="@+id/btn_sign1"
-        android:layout_below="@id/repassword1"
+        android:layout_below="@id/password1"
         android:layout_marginTop="50dp"
         android:text="sign in"
         android:onClick="btn_sign1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </Button>
-
 
 </RelativeLayout>

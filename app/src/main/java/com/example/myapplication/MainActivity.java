@@ -13,12 +13,10 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     Button btnCall;
     EditText username,password,repassword;
-    DBHelper DB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        DB = new DBHelper(this);
         btnCall=findViewById(R.id.btnCall);
         btnCall.setOnClickListener(new View.OnClickListener() {
             @Override

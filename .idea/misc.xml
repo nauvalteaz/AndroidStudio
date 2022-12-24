@@ -6,15 +6,26 @@
         <entry key="..\:/androidStudio/app/src/main/res/drawable-v24/home.xml" value="0.236" />
         <entry key="..\:/androidStudio/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
         <entry key="..\:/androidStudio/app/src/main/res/drawable-v24/widgets.xml" value="0.236" />
+        <entry key="..\:/androidStudio/app/src/main/res/drawable/custombutton.xml" value="0.1725" />
+        <entry key="..\:/androidStudio/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2355" />
         <entry key="..\:/androidStudio/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/androidStudio/app/src/main/res/drawable/ic_menu.xml" value="0.2355" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/activity_detail.xml" value="0.2" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/activity_login.xml" value="0.2359375" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/androidStudio/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/activity_main2.xml" value="0.1556420233463035" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/activity_main3.xml" value="0.24547101449275363" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/activity_main4.xml" value="0.4" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/activity_main5.xml" value="0.264" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/activity_register.xml" value="0.24547101449275363" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/activity_shop_home.xml" value="0.1" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/activity_splash_screen.xml" value="0.24547101449275363" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/activity_splashscreen2.xml" value="0.1109375" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/header.xml" value="0.136" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/item_makanan.xml" value="0.1518987341772152" />
+        <entry key="..\:/androidStudio/app/src/main/res/layout/navbar.xml" value="0.15151515151515152" />
         <entry key="..\:/androidStudio/app/src/main/res/layout/register.xml" value="0.24547101449275363" />
+        <entry key="..\:/androidStudio/app/src/main/res/menu/menu.xml" value="0.264" />
       </map>
     </option>
   </component>

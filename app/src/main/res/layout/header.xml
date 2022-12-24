@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/uwow"
+    android:gravity="bottom"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/gambar"
+        android:src="@drawable/uwu">
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uwu shop"
+        android:paddingLeft="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="14sp">
+
+    </TextView>
+
+</LinearLayout>

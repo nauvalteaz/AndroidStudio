@@ -39,7 +39,7 @@
         android:id="@+id/btn_sign"
         android:layout_below="@id/btn_reg"
         android:layout_marginTop="50dp"
-        android:text="sign in"
+        android:text="have a account ? sign in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </Button>

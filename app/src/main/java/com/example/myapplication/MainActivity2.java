@@ -12,6 +12,7 @@ public class MainActivity2 extends AppCompatActivity {
     ImageView btnBio;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         btnBio=findViewById(R.id.bio_btn);
@@ -30,6 +31,6 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void app_me(View view) {
-        startActivity(new Intent(MainActivity2.this,MainActivity.class));
+        startActivity(new Intent(MainActivity2.this,splashscreen2.class));
     }
 }

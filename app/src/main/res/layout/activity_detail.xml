@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail"
+    android:background="@drawable/uwow"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="12dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="106dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/desc"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="12dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/desc"
+        android:layout_alignParentRight="true"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:layout_below="@id/imageView3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/price"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/custombutton"
+        android:text="+"></Button>
+
+    <Button
+        android:id="@+id/buttonC2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@id/countA"
+        android:height="40dp"
+        android:background="@drawable/custombutton"
+        android:text="-">
+
+    </Button>
+
+    <Button
+        android:id="@+id/butonTot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonC2"
+        android:layout_alignParentRight="true"
+        android:onClick="tot"
+        android:text="total"></Button>
+
+    <TextView
+        android:id="@+id/countA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="23dp"
+        android:textColorHighlight="#ffff"
+        android:layout_toLeftOf="@id/buttonD"
+        android:padding="12dp"
+        android:text="0"
+        android:textColor="#ffff"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/totalTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonC2"
+        android:layout_marginTop="0dp"
+        android:text="total :"
+        android:textColor="#ffff">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/totall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonC2"
+        android:layout_toRightOf="@+id/totalTxt"
+        android:textColor="@color/white"
+        android:text="0"></TextView>
+
+</RelativeLayout>
